@@ -1,0 +1,23 @@
+{
+  "name": "altcoin-topic-scraper",
+  "version": "1.0.0",
+  "description": "A node application that scrapes the newest altcoin discussion topics from bitcointalk.org",
+  "main": "get-altcoin-topics.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Randy808/Altcoin-Topic-Terminal-Scraper.git"
+  },
+  "author": "Randall Naar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Randy808/Altcoin-Topic-Terminal-Scraper/issues"
+  },
+  "homepage": "https://github.com/Randy808/Altcoin-Topic-Terminal-Scraper#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "node-fetch": "^1.7.3"
+  }
+}
